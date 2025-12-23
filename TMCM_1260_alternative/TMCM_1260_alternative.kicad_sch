@@ -15618,8 +15618,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "0f387741-8b4e-4376-b6ad-cb1edb1d4097")
 		(property "Reference" "R33"
 			(at 189.1284 306.07 90)
@@ -15699,16 +15699,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 245.11 158.75 90)
+		(at 246.38 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1078d3bf-82eb-430c-9602-794cbfd8c6aa")
-		(property "Reference" "R14"
-			(at 245.11 153.67 90)
+		(uuid "1063a3f2-6816-4339-a9fc-3e8e2413897a")
+		(property "Reference" "R12"
+			(at 246.38 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15716,24 +15716,15 @@
 			)
 		)
 		(property "Value" "0.47"
-			(at 245.11 156.21 90)
+			(at 246.38 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 245.11 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-6DQJR47V/6004335"
-			(at 245.11 158.75 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 246.38 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15741,8 +15732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0.47 OHM 5% 1/2W 0805"
-			(at 245.11 158.75 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/cts-resistor-products/73L2R47J/1543468"
+			(at 246.38 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15750,8 +15741,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERJ-6DQJR47V"
-			(at 245.11 158.75 0)
+		(property "Description" "RES 0.47 OHM 5% 1/10W 0603"
+			(at 246.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "73L2R47J"
+			(at 246.38 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15760,15 +15760,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "af438eb5-e9e3-4a45-8957-73a01d22ca75")
+			(uuid "e3591969-c42e-4840-87e9-52b77e35f903")
 		)
 		(pin "2"
-			(uuid "1828bd25-c476-47e6-9110-629239abe7b1")
+			(uuid "3e1ebf47-7d83-45bf-8fe7-5daf9b929cb5")
 		)
 		(instances
 			(project "TMCM_1260_alternative"
 				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -17008,83 +17008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 309.88 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27cec7d4-311d-41ec-8eca-ca1d2feaa5e0")
-		(property "Reference" "R13"
-			(at 309.88 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.47"
-			(at 309.88 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 309.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-6DQJR47V/6004335"
-			(at 309.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0.47 OHM 5% 1/2W 0805"
-			(at 309.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "ERJ-6DQJR47V"
-			(at 309.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a51771e-5bab-4fcb-a638-66a088255cda")
-		)
-		(pin "2"
-			(uuid "23235853-d3dc-43e4-9abe-c518263642f6")
-		)
-		(instances
-			(project "TMCM_1260_alternative"
-				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 102.87 374.65 0)
 		(unit 1)
@@ -17460,6 +17383,83 @@
 			(project "TMCM_1260_alternative"
 				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 309.88 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "354ac122-3095-482f-baa4-11a245b344cf")
+		(property "Reference" "R13"
+			(at 309.88 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47"
+			(at 309.88 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 309.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/cts-resistor-products/73L2R47J/1543468"
+			(at 309.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0.47 OHM 5% 1/10W 0603"
+			(at 309.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "73L2R47J"
+			(at 309.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d8a564d-c8b0-4744-bc75-d8c3d2f607aa")
+		)
+		(pin "2"
+			(uuid "a218aa54-0c8a-4485-a30f-788bbc5fb109")
+		)
+		(instances
+			(project "TMCM_1260_alternative"
+				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -18573,7 +18573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 308.61 158.75 0)
 			(effects
 				(font
@@ -18582,7 +18582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-6DQJR47V/6004335"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/cts-resistor-products/73L2R47J/1543468"
 			(at 308.61 158.75 0)
 			(effects
 				(font
@@ -18591,7 +18591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0.47 OHM 5% 1/2W 0805"
+		(property "Description" "RES 0.47 OHM 5% 1/10W 0603"
 			(at 308.61 158.75 0)
 			(effects
 				(font
@@ -18600,7 +18600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERJ-6DQJR47V"
+		(property "Manufacturer Part Number" "73L2R47J"
 			(at 308.61 158.75 0)
 			(effects
 				(font
@@ -19001,6 +19001,83 @@
 			(project "TMCM_1260_alternative"
 				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 245.11 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59c37635-400f-47f7-86d7-acdcb4c53840")
+		(property "Reference" "R14"
+			(at 245.11 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47"
+			(at 245.11 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/cts-resistor-products/73L2R47J/1543468"
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0.47 OHM 5% 1/10W 0603"
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "73L2R47J"
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9940e3a-ecfd-44e2-af8d-c5d5851491c8")
+		)
+		(pin "2"
+			(uuid "aa3b4577-06cd-4c09-a5ac-39f42b18a6e3")
+		)
+		(instances
+			(project "TMCM_1260_alternative"
+				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -20946,83 +21023,6 @@
 			(project "TMCM_1260_alternative"
 				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 246.38 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "923581f2-c059-4ca4-9170-db65a0891a8e")
-		(property "Reference" "R12"
-			(at 246.38 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.47"
-			(at 246.38 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 246.38 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-6DQJR47V/6004335"
-			(at 246.38 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0.47 OHM 5% 1/2W 0805"
-			(at 246.38 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "ERJ-6DQJR47V"
-			(at 246.38 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb8d3292-756e-4f1d-9bf3-fa05dafd8739")
-		)
-		(pin "2"
-			(uuid "d71777da-922f-4d31-aa5d-fc6d22934848")
-		)
-		(instances
-			(project ""
-				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -22985,8 +22985,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "bca985ad-ce37-4fc5-b521-3a6217476d95")
 		(property "Reference" "R32"
 			(at 191.6684 311.15 90)
