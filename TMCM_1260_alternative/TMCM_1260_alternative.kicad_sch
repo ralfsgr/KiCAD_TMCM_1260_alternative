@@ -11559,6 +11559,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 280.67) (xy 198.12 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f67ad97-e5d7-453c-95a4-06262eb43bab")
+	)
+	(wire
+		(pts
 			(xy 252.73 107.95) (xy 250.19 107.95)
 		)
 		(stroke
@@ -12046,6 +12056,16 @@
 			(type default)
 		)
 		(uuid "a31fd53b-5a7c-403e-a639-1c3b3ef218c8")
+	)
+	(wire
+		(pts
+			(xy 198.12 289.56) (xy 198.12 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34eafa6-6701-4ca6-8389-96bda8d758fa")
 	)
 	(wire
 		(pts
@@ -22288,6 +22308,93 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 198.12 285.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "456ea328-42c4-4d1e-b8cd-6328237e0b28")
+		(property "Reference" "C44"
+			(at 201.041 284.5816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 201.041 286.893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 199.0852 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL10B104KO8NNNC/3886663"
+			(at 198.12 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
+			(at 198.12 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL10B104KO8NNNC"
+			(at 198.12 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 198.12 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a92fb07f-2d68-4b1e-97ca-462b19b11ec9")
+		)
+		(pin "2"
+			(uuid "27c0742e-c6f4-4868-a271-34d9e6464ace")
+		)
+		(instances
+			(project "TMCM_1260_alternative"
+				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 231.775 327.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22521,6 +22628,71 @@
 			(project "TMCM_1260_alternative"
 				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 198.12 280.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c63cb41-d7c3-4250-8281-ea995431713e")
+		(property "Reference" "#PWR057"
+			(at 198.12 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 198.501 276.2758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0df6862-9810-4995-baa6-979af765d0f7")
+		)
+		(instances
+			(project "TMCM_1260_alternative"
+				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -23597,6 +23769,71 @@
 			(project "TMCM_1260_alternative"
 				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 290.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a0051d5-caf0-4d95-9d11-2e85b5b76f10")
+		(property "Reference" "#PWR058"
+			(at 198.12 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.247 295.2242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "438ba4a3-b6bb-4211-942a-9973f3430a97")
+		)
+		(instances
+			(project "TMCM_1260_alternative"
+				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
