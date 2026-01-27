@@ -1380,7 +1380,7 @@
 		(descr "LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "LQFP QFP")
 		(property "Reference" "U6"
-			(at 0 -7.4 0)
+			(at -6.3246 -5.4356 0)
 			(layer "F.SilkS")
 			(uuid "04d7ac5d-8acd-4aba-bd08-dc0dd7d76c9e")
 			(effects
@@ -14478,7 +14478,7 @@
 		(at 135.7122 112.129001)
 		(tags "TMC4361A-LA-T ")
 		(property "Reference" "U8"
-			(at 0 0 0)
+			(at -3.6576 -3.950401 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "09638082-c41a-4116-bc6d-9715900c7c51")
@@ -17300,7 +17300,7 @@
 		(at 127.8128 126.2126)
 		(tags "JXD2-0Z10NL ")
 		(property "Reference" "J6"
-			(at 4.445 2.54 0)
+			(at -3.9624 -2.286 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9248194d-496b-4fd4-a6c3-0e56f44c5db7")
@@ -22302,7 +22302,7 @@
 		(at 145.9284 121.3485)
 		(tags "LAN8742A-CZ-TR ")
 		(property "Reference" "U9"
-			(at 0 0 0)
+			(at -2.5962 -2.9845 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2df13938-040d-42d8-a44a-43e5f9a1c802")
