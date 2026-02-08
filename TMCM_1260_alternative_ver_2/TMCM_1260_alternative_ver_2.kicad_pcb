@@ -10625,7 +10625,7 @@
 		(uuid "575cd199-e2f9-4937-8925-bd2fdbea8d77")
 		(at 82.0674 140.1064)
 		(property "Reference" "J6"
-			(at -4.875 -7.885 360)
+			(at -4.875 -7.885 0)
 			(layer "F.SilkS")
 			(uuid "91e081f9-75db-4cf0-8346-47c88a42734b")
 			(effects
@@ -10636,7 +10636,7 @@
 			)
 		)
 		(property "Value" "JXD2-0Z10NL"
-			(at 2.745 11.365 360)
+			(at 2.745 11.365 0)
 			(layer "F.Fab")
 			(uuid "fda08be5-92f7-439f-adbc-aeefc0580ced")
 			(effects
@@ -10647,7 +10647,7 @@
 			)
 		)
 		(property "Footprint" "JXD2_0Z10NL:JXD2_0Z10NL"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d9b15dc-c61f-402d-b7b7-17127a2ce236")
@@ -10659,7 +10659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2028606c-02df-406a-a087-8e543ec8be0a")
@@ -10671,7 +10671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c7c5517e-c300-4450-97d8-a7d05a353136")
