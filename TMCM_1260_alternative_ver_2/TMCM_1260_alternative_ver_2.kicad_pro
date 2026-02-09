@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.2032,
-          "height": 0.499999,
-          "width": 0.499999
+          "drill": 0.0,
+          "height": 4.6228,
+          "width": 4.6228
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -219,6 +219,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -491,7 +495,7 @@
       "plot": "Production/PCB/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "TMCM_1260_alternative_ver_2.step",
       "svg": "",
       "vrml": ""
     },
