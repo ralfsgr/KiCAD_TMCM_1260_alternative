@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "ffcffff_fffffffd",
-    "zone_display_mode": 1
+    "visible_layers": "fffffff_ffffffff",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "TMCM_1260_alternative_ver_2.kicad_prl",
+    "filename": "ETH_TMC_shield.kicad_prl",
     "version": 3
   },
   "project": {
