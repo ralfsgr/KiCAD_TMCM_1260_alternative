@@ -8001,7 +8001,7 @@
 		(descr "Through hole straight pin header, 2x06, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x06 2.54mm double row")
 		(property "Reference" "J10"
-			(at 4.826599 -1.139099 360)
+			(at 4.826599 -1.139099 0)
 			(layer "F.SilkS")
 			(uuid "352b91b1-dffb-4a65-a1e9-a9e17fb2c14b")
 			(effects
@@ -12199,13 +12199,13 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 1.16 0)
+			(at 0 0.8636 0)
 			(layer "B.SilkS")
 			(uuid "0d897448-c912-4f44-ba27-305eea139398")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 				(justify mirror)
 			)
