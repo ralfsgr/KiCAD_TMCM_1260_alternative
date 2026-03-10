@@ -12985,7 +12985,7 @@
 	)
 	(rectangle
 		(start 21.971 216.662)
-		(end 180.34 369.57)
+		(end 184.15 369.57)
 		(stroke
 			(width 0)
 			(type default)
@@ -17158,7 +17158,6 @@
 		(in_bom no)
 		(on_board no)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "0656f857-0068-454d-a385-017116312347")
 		(property "Reference" "C24"
 			(at 293.37 57.1562 0)
@@ -17170,7 +17169,7 @@
 			)
 		)
 		(property "Value" "330u"
-			(at 293.37 59.6962 0)
+			(at 295.447 59.4439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20425,7 +20424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "22u"
 			(at 261.239 71.1705 0)
 			(effects
 				(font
@@ -23404,6 +23403,91 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 139.7 334.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78888f8d-2cad-450a-9336-9e2f6871c417")
+		(property "Reference" "R33"
+			(at 144.6784 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k4"
+			(at 142.367 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 139.7 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.lv/en/products/detail/panasonic-electronic-components/ERJ-2GEJ242X/146964"
+			(at 139.7 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 2.4K OHM 5% 1/10W 0402"
+			(at 139.7 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-2GEJ242X"
+			(at 139.7 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 139.7 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eac0d01f-b029-4697-a7b8-0790216c03a3")
+		)
+		(pin "2"
+			(uuid "f143c7ae-716b-45a6-8fc9-3fb1f8584e46")
+		)
+		(instances
+			(project "TMCM_1260_alternative_ver_2"
+				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 309.88 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23983,7 +24067,7 @@
 				)
 			)
 		)
-		(property "Value" "24k"
+		(property "Value" "2k4"
 			(at 35.687 334.01 90)
 			(effects
 				(font
@@ -24000,7 +24084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.lv/en/products/detail/panasonic-electronic-components/ERJ-3EKF4701V/1746419"
+		(property "Datasheet" "https://www.digikey.lv/en/products/detail/panasonic-electronic-components/ERJ-2GEJ242X/146964"
 			(at 33.02 334.01 0)
 			(effects
 				(font
@@ -24009,7 +24093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603"
+		(property "Description" "RES SMD 2.4K OHM 5% 1/10W 0402"
 			(at 33.02 334.01 0)
 			(effects
 				(font
@@ -24018,7 +24102,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "ERJ-3EKF4701V"
+		(property "PN" "ERJ-2GEJ242X"
 			(at 33.02 334.01 90)
 			(effects
 				(font
@@ -28518,91 +28602,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 88.9 334.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdb02550-1883-4e4b-b9a5-2f094f42e8fc")
-		(property "Reference" "R32"
-			(at 93.8784 334.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24k"
-			(at 91.567 334.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.lv/en/products/detail/panasonic-electronic-components/ERJ-3EKF4701V/1746419"
-			(at 88.9 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603"
-			(at 88.9 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "ERJ-3EKF4701V"
-			(at 88.9 334.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 88.9 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfa3d84c-6d8f-446e-aa00-f170d7e1e9da")
-		)
-		(pin "2"
-			(uuid "58df042b-cd9f-43f8-8736-67eca51b6e5e")
-		)
-		(instances
-			(project "TMCM_1260_alternative_ver_2"
-				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 232.41 154.94 90)
 		(unit 1)
@@ -29677,6 +29676,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 88.9 334.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e23542fb-6f5e-4289-bb56-277f9246a3e7")
+		(property "Reference" "R32"
+			(at 93.8784 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k4"
+			(at 91.567 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 88.9 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.lv/en/products/detail/panasonic-electronic-components/ERJ-2GEJ242X/146964"
+			(at 88.9 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 2.4K OHM 5% 1/10W 0402"
+			(at 88.9 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-2GEJ242X"
+			(at 88.9 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 88.9 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4129a793-e7c2-4aa8-b234-cc751daaca63")
+		)
+		(pin "2"
+			(uuid "f55ca5c1-9f32-4e90-889e-00968468fd4c")
+		)
+		(instances
+			(project "TMCM_1260_alternative_ver_2"
+				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 207.01 106.68 270)
 		(unit 1)
@@ -30103,91 +30187,6 @@
 			(project "TMCM_1260_alternative"
 				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 139.7 334.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f083a051-009c-43f3-904b-6c9d3132e3a1")
-		(property "Reference" "R33"
-			(at 144.6784 334.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24k"
-			(at 142.367 334.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 139.7 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.lv/en/products/detail/panasonic-electronic-components/ERJ-3EKF4701V/1746419"
-			(at 139.7 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603"
-			(at 139.7 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "ERJ-3EKF4701V"
-			(at 139.7 334.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 139.7 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ac68a18-a687-4fac-b200-7ec752dd9b2a")
-		)
-		(pin "2"
-			(uuid "d5de0900-5db4-4bcc-bd8d-d957a7baec22")
-		)
-		(instances
-			(project "TMCM_1260_alternative_ver_2"
-				(path "/e4fb31fb-ec55-43a1-9d58-e537a4a0024e"
-					(reference "R33")
 					(unit 1)
 				)
 			)
